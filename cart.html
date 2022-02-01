@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="assets/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark static-top">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/images/ciyashopLogo.jpg" alt="..." height="36">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          HOME
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li>
+                            <hr class="dropdown-divider" />
+                          </li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">BLOG</a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                            <hr class="dropdown-divider" />
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">SHOP</a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">SHOP HOVER</a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">PAGES</a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">ELEMENTS</a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                            <hr class="dropdown-divider" />
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+              </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                    <li class="rightLogos"><a href="#"><i class="fas fa-search"></i></a></li>
+                    <li class="rightLogos"><a href="#"><i class="fas fa-random"></i></a></li>
+                    <li class="rightLogos"><a href="#"><i class="far fa-heart"></i></a></li>
+                    <li id="cartInfo" class="rightLogos"><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    <div class="container-fluid cartHeadingMain">
+        <div class="container cartHeading">
+            <h1>My Shopping Cart</h1>
+            <div class="cartHeadingRight">
+                    <a href="index.html"><p><i class="fas fa-home"></i> Home </p></a>
+                    <p> / My Shopping cart</p>
+            </div>
+        </div>
+    </div>
+        
+    <div class="container shoppingCart">
+        <div class="cartMenu">
+            <table class="table cartTable">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Product</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Subtotal</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+              </table>
+        </div>
+
+          <div class="cartTotal">
+              <h2>Cart Totals</h2>
+              <hr>
+              <div class="subTotal">
+                  <h3 class="subTotalh1">Subtotal</h3>
+                  <h3 class="subTotalh2">Price</h3>
+              </div>
+              <hr>
+              <div class="shipping">
+                  <h4 class="shippingh1">Shipping</h4>
+                  <div class="shippingRight">
+                    <input type="radio" id="flat" name="fav_language" value="HTML">
+                      <label for="html">Flat rate</label><br>
+                      <input type="radio" id="pickup" name="fav_language" value="CSS">
+                      <label for="css">Local Pickup</label><br>
+                    <p>Shipping to <strong>CA</strong></p>
+                    <p class="changeAddress">Change address <i class="fas fa-shipping-fast"></i></p>
+                  </div>
+              </div>
+              <hr>
+              <div class="total">
+                  <h3 class="totalh1">Total</h3>
+                  <h3 id="totalPrice">price</h3>
+              </div>
+              <button type="text" class="proceed">PROCEED TO CHECKOUT</button>
+          </div>
+    </div>
+
+
+
+    <div class="container footer">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 footerLeft">
+                <div class="footerLeftTop">
+                    <div class="logo">
+                        <img src="assets/images/ciyashopLogo.jpg" alt="">
+                    </div>
+                </div>
+                <div>
+                    <p>CiyaShop is an enchanting and easy to use e-Commerce WP theme that allows you to sell your products in a dynamic way.</p>
+                    <p>The theme is packed with everything you need to create a new website.</p>
+                </div>
+                <div class="footerLogos">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-vimeo-v"></i>
+                    <i class="fab fa-pinterest"></i>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 footerLeft1">
+                <h5>Useful Links</h5>
+                <ul>
+                    <li><i class="fas fa-chevron-right"></i> Home</li>
+                    <li><i class="fas fa-chevron-right"></i> About Us</li>
+                    <li><i class="fas fa-chevron-right"></i> Stores Locator</li>
+                    <li><i class="fas fa-chevron-right"></i> Shop</li>
+                    <li><i class="fas fa-chevron-right"></i> Contact Us</li>
+                    <li><i class="fas fa-chevron-right"></i> Privacy Policy</li>
+                    <li><i class="fas fa-chevron-right"></i> Terms & Conditions</li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 footerLeft1">
+                <h5>Information</h5>
+                <ul>
+                    <li><i class="fas fa-chevron-right"></i> Look Book</li>
+                    <li><i class="fas fa-chevron-right"></i> Information</li>
+                    <li><i class="fas fa-chevron-right"></i> Instagram Wall</li>
+                    <li><i class="fas fa-chevron-right"></i> Typography</li>
+                    <li><i class="fas fa-chevron-right"></i> Parallax Presentation</li>
+                    <li><i class="fas fa-chevron-right"></i> Modern Process</li>
+                    <li><i class="fas fa-chevron-right"></i> Warranty And Services</li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 footerLeft2">
+                <h5>Contact Info</h5>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> 1635 Franklin Street Montgomery, Near Sherwood Mall. AL 36104</li>
+                    <li><i class="far fa-envelope"></i>	support@ciyashop.com</li>
+                    <li><i class="fas fa-phone-alt"></i> 	126-632-2345</li>
+                </ul>
+                <h5>Newsletter</h5>
+                <div class="subscribeBar input-group mb-3">
+                    <input type="text" class="form-control" id="emailAddress2" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" onclick="sendEmail('emailAddress2')"  type="button" id="button-addon2"><i class="fas fa-external-link-alt"></i></button>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+<script>
+    // function minus(){
+    //     qtyValue = document.activeElement.parentElement.children[1].value
+    //     if(qtyValue==''){
+    //         qtyValue=0
+    //     }
+    //     else{
+    //         qtyValue--;
+    //     }
+    //     document.activeElement.parentElement.children[1].value = qtyValue
+    // }
+    // function plus(){
+    //     qtyValue = document.activeElement.parentElement.children[1].value
+    //     if(qtyValue==''){
+    //         qtyValue=0
+    //     }
+    //     else{
+    //         qtyValue++;
+    //     }
+    //     document.activeElement.parentElement.children[1].value = qtyValue
+    // }
+    function minus(name)
+    {
+        products = JSON.parse(document.cookie).products
+            for (var i in products){
+                if(products[i].name==name){
+                    products[i].quantity--
+                    if(products[i].quantity==0){
+                        deleteItem(name)
+                    }
+                    break
+                }
+            }
+            document.cookie = JSON.stringify({products:products})
+            location.reload()
+    }
+    function plus(name)
+    {
+        products = JSON.parse(document.cookie).products
+            for (var i in products){
+                if(products[i].name==name){
+                    products[i].quantity++
+                    break
+                }
+            }
+            document.cookie = JSON.stringify({products:products})
+            location.reload()
+    }
+    
+    $(document).ready(function(){
+        if(document.cookie=='')
+         return;
+        products = JSON.parse(document.cookie).products
+        subTotalSum = 0.0
+        for (var i in products){
+            subTotal = parseFloat(products[i].price.replace('$',''))*products[i].quantity
+            subTotal = subTotal.toFixed(2)
+            subTotalSum+=parseFloat(subTotal)
+            document.getElementsByTagName('tbody')[0].innerHTML+=
+        "<tr><th scope='row'><i onclick='deleteItem(\""+products[i].name+"\")' class='fas fa-trash-alt'></i></th><td>"+products[i].name+"</td><td>"+products[i].price+"</td> <td><button class='minus' onclick='minus(\""+products[i].name+"\")'>-</button><input type='text' class='qty' value="+products[i].quantity+"> <button class='plus' onclick='plus(\""+products[i].name+"\")'>+</button> </td><td class='subTotalProduct'>$"+subTotal+"</td> </tr>"
+        }
+        document.getElementsByClassName('subTotalh2')[0].textContent = '$'+subTotalSum.toFixed(2)
+        document.getElementById('totalPrice').textContent = '$'+(subTotalSum+100)
+        
+    })
+    function deleteItem(name)
+    {
+        if(confirm("Are you sure?"))
+        {
+            products = JSON.parse(document.cookie).products
+            for (var i in products){
+                if(products[i].name==name){
+                    products.splice(i,1)
+                    break
+                }
+            }
+            document.cookie = JSON.stringify({products:products})
+            location.reload()
+        }
+    }
+    
+</script>
+</html>

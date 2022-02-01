@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciyashop</title>
+    <link rel="stylesheet" href="cu">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="assets/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="assets/script.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark static-top">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+        <img src="assets/images/ciyashopLogo.jpg" alt="..." height="36">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      HOME
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider" />
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">BLOG</a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                        <hr class="dropdown-divider" />
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">SHOP</a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider" />
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">SHOP HOVER</a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider" />
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">PAGES</a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider" />
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">ELEMENTS</a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                        <hr class="dropdown-divider" />
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+            </ul>
+          </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                <li class="rightLogos"><a href="#"><i class="fas fa-search"></i></a></li>
+                <li class="rightLogos"><a href="#"><i class="fas fa-random"></i></a></li>
+                <li class="rightLogos"><a href="#"><i class="far fa-heart"></i></a></li>
+                <li id="cartInfo" class="rightLogos"><a href="cart.html"><i class="fas fa-shopping-bag"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<div class="feature">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <!-- <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div> -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/images/img1.jpg" class="d-block w-100" alt="img1">
+                <div class="carousel-caption">
+                    <h1>New</h1>
+                    <h1>Arrival</h1>
+                    <h2>For women</h2>
+                    <button type="button" class="btn apply">Shop Now</button>
+                </div>
+                <div class="carousel-caption2">
+                    <h2>Limited</h2>
+                    <h2>Time</h2>
+                    <h2>Offer</h2>
+                    <a href="#"><u>GET THE OFFER</u></a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/img2.jpg" class="d-block w-100" alt="img2">
+                <div class="carousel-caption">
+                    <h1>New</h1>
+                    <h1>Arrival</h1>
+                    <h2>For women</h2>
+                    <button type="button" class="btn apply">Shop Now</button>
+                </div>
+                <div class="carousel-caption2">
+                    <h2>Limited</h2>
+                    <h2>Time</h2>
+                    <h2>Offer</h2>
+                    <a href="#"><u>GET THE OFFER</u></a>
+                </div>
+            </div>
+            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span>01</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span>02</span>
+                </button>
+              </div>
+        </div>
+
+    <div class="container">
+        <div class="stats row">
+            <div class="stat1 col-lg-3 col-md-3 col-sm-12">
+                <div class="endContent">
+                    <h1>End of Season</h1>
+                    <P>Avail massive discounts and get exciting offers with our shopping across all new arrival categories</P>
+                    <button type="button" class="btn now">Shop Now</button>
+                </div>
+            </div>
+            <div class="stat4 col-lg-3 col-md-6 col-sm-12">
+                <img src="assets/images/end4.jpg" alt="">
+            </div>
+            <div class="stat2 col-lg-3 col-md-6 col-sm-12">
+                <img src="assets/images/end2.jpg" alt="">
+            </div>
+            <div class="stat3 col-lg-3 col-md-6 col-sm-12">
+                <img src="assets/images/end3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container topSellingMain">
+        <h1>Top Selling Products</h1>
+        <p class="topSellingMainP" style="margin-bottom:0;">Forget about struggling to do everything at once: taking care of the family, running</p>
+        <p class="topSellingMainP">your business etc.</p>
+        <div class="topSelling">
+            <div class="productsList row">
+                <div class="product1 col-lg-3 col-md-6 col-sm-12">
+                    <div class="productPic1">
+                        <img id="img1" src="assets/images/p1.jpg" alt="">
+                        <div class="addToCart">
+                            <button class="cartBtn" onclick="addToCart()">Cart</button>
+                        </div>
+                    </div>
+                    <div class="productContent1">
+                        <p class="productType">Clothing</p>
+                        <p class="productName">Women’s Fabric Mix Midi Wrap Jumpsuit</p>
+                            <div class="productStar">
+                                <span class="productPrice">$10.22</span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                    </div>
+                </div>
+                <div class="product1 col-lg-3 col-md-6 col-sm-12">
+                    <div class="productPic2">
+                        <img id="img2" src="assets/images/p2.jpg" alt="">
+                        <div class="addToCart">
+                            <button class="cartBtn" onclick="addToCart()">Cart</button>
+                        </div>
+                    </div>
+                    <div class="productContent1">
+                        <p class="productType">Bags</p>
+                        <p class="productName">Women’s Accessories Vegan Leather</p>
+                        <div class="productStar">
+                            <span class="productPrice">$35.20</span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product1 col-lg-3 col-md-6 col-sm-12">
+                    <div class="productPic3">
+                        <img id="img3" src="assets/images/p3.jpg" alt="">
+                        <div class="addToCart">
+                            <button class="cartBtn" onclick="addToCart()">Cart</button>
+                        </div>
+                    </div>
+                    <div class="productContent1">
+                        <p class="productType">Women</p>
+                        <p class="productName">Women’s Crochet Shoulder Chevron</p>
+                        <div class="productStar">
+                            <span class="productPrice">$21.57</span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product1 col-lg-3 col-md-6 col-sm-12">
+                    <div class="productPic4">
+                        <img id="img4" src="assets/images/p4.jpg" alt="">
+                        <div class="addToCart">
+                            <button class="cartBtn" onclick="addToCart()">Cart</button>
+                        </div>
+                    </div>
+                    <div class="productContent1">
+                        <p class="productType">Pajamas & Robes</p>
+                        <p class="productName">Women’s Union Suit</p>
+                        <div class="productStar">
+                            <span class="productPrice">$397.43</span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product1 col-lg-3 col-md-6 col-sm-12">
+                    <div class="productPic5">
+                        <img id="img5" src="assets/images/p5.jpg" alt="">
+                        <div class="addToCart">
+                            <button class="cartBtn" onclick="addToCart()">Cart</button>
+                        </div>
+                    </div>
+                    <div class="productContent1">
+                        <p class="productType">Clothing</p>
+                        <p class="productName">Men’s Standard Fit Short Sleeve V-Neck</p>
+                        <div class="productStar">
+                            <span class="productPrice">$21.57</span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product1 col-lg-3 col-md-6 col-sm-12">
+                    <div class="productPic6">
+                        <img id="img6" src="assets/images/p6.jpg" alt="">
+                        <div class="addToCart">
+                            <button class="cartBtn" onclick="addToCart()">Cart</button>
+                        </div>
+                    </div>
+                    <div class="productContent1">
+                        <p class="productType">Clothing</p>
+                        <p class="productName">Men’s Standard Fit Crew T-Shirt</p>
+                        <div class="productStar">
+                            <span class="productPrice">$10.22</span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product1 col-lg-3 col-md-6 col-sm-12">
+                    <div class="productPic7">
+                        <img id="img7" src="assets/images/p7.jpg" alt="">
+                        <div class="addToCart">
+                            <button class="cartBtn" onclick="addToCart()">Cart</button>
+                        </div>
+                    </div>
+                    <div class="productContent1">
+                        <p class="productType">Clothing</p>
+                        <p class="productName">Girls’ Long Sleeve Graphic T-Shirt – White</p>
+                        <div class="productStar">
+                            <span class="productPrice">$21.57</span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product1 col-lg-3 col-md-6 col-sm-12">
+                    <div class="productPic8">
+                        <img id="img8" src="assets/images/p8.jpg" alt="">
+                        <div class="addToCart">
+                            <button class="cartBtn" onclick="addToCart()">Cart</button>
+                        </div>
+                    </div>
+                    <div class="productContent1">
+                        <p class="productType">Clothing</p>
+                        <p class="productName">Women’s Embellished Pointelle Open</p>
+                        <div class="productStar">
+                            <span class="productPrice">$32.93</span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid deal">
+        <div class="dealMain">
+            <div class="dealPic">
+                <img src="assets/images/dealPic.png" alt="">
+            </div>
+            <div class="dealContentMain">
+                <div class="dealContent">
+                    <button type="button" class="btn off">50% Off</button>
+                    <h1>Deal of The Week</h1>
+                    <p id="demo"></p>
+                    <div class="countDown">
+                        <p class="day">DAY</p>
+                        <p class="hour">HRS</p>
+                        <p class="minute">MIN</p>
+                        <p class="second">SEC</p>
+                    </div>
+                    <button type="button" class="btn now">Shop Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container knowMoreMain">
+        <div class="knowMore row">
+            <div class="knowMoreLeft col-lg-6 col-md-12 col-sm-12">
+                <p>Know more</p>
+                <h2>About CiyaShop</h2>
+                <p>We are CiyaShop ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veni quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <p class="readMore"><u>Read More...</u></p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 footerRight">
+                <img src="assets/images/knowmore.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="subscribe">
+            <div class="subscribePic">
+                <img src="assets/images/subscribe-bg.jpg" alt="">
+            </div>
+            <div class="subscribeContentMain">
+                <div class="subscribeContent">
+                    <h2>Subscribe today and get 25% off on your first order!</h2>
+                    <div class="subscribeBar input-group mb-3">
+                        <input type="text" class="form-control" id="emailAddress" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary" onclick="sendEmail('emailAddress')" type="button" id="button-addon2"><i class="fas fa-external-link-alt"></i> Subscribe</button>
+                    </div> 
+                </div>
+            </div>
+
+        </div>
+    </div>
+<hr>
+    <div class="container footer">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 footerLeft">
+                <div class="footerLeftTop">
+                    <div class="logo">
+                        <img src="assets/images/ciyashopLogo.jpg" alt="">
+                    </div>
+                </div>
+                <div>
+                    <p>CiyaShop is an enchanting and easy to use e-Commerce WP theme that allows you to sell your products in a dynamic way.</p>
+                    <p>The theme is packed with everything you need to create a new website.</p>
+                </div>
+                <div class="footerLogos">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-vimeo-v"></i>
+                    <i class="fab fa-pinterest"></i>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 footerLeft1">
+                <h5>Useful Links</h5>
+                <ul>
+                    <li><i class="fas fa-chevron-right"></i> Home</li>
+                    <li><i class="fas fa-chevron-right"></i> About Us</li>
+                    <li><i class="fas fa-chevron-right"></i> Stores Locator</li>
+                    <li><i class="fas fa-chevron-right"></i> Shop</li>
+                    <li><i class="fas fa-chevron-right"></i> Contact Us</li>
+                    <li><i class="fas fa-chevron-right"></i> Privacy Policy</li>
+                    <li><i class="fas fa-chevron-right"></i> Terms & Conditions</li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 footerLeft1">
+                <h5>Information</h5>
+                <ul>
+                    <li><i class="fas fa-chevron-right"></i> Look Book</li>
+                    <li><i class="fas fa-chevron-right"></i> Information</li>
+                    <li><i class="fas fa-chevron-right"></i> Instagram Wall</li>
+                    <li><i class="fas fa-chevron-right"></i> Typography</li>
+                    <li><i class="fas fa-chevron-right"></i> Parallax Presentation</li>
+                    <li><i class="fas fa-chevron-right"></i> Modern Process</li>
+                    <li><i class="fas fa-chevron-right"></i> Warranty And Services</li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 footerLeft2">
+                <h5>Contact Info</h5>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> 1635 Franklin Street Montgomery, Near Sherwood Mall. AL 36104</li>
+                    <li><i class="far fa-envelope"></i>	support@ciyashop.com</li>
+                    <li><i class="fas fa-phone-alt"></i> 	126-632-2345</li>
+                </ul>
+                <h5>Newsletter</h5>
+                <div class="subscribeBar input-group mb-3">
+                    <input type="text" class="form-control" id="emailAddress2" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" onclick="sendEmail('emailAddress2')"  type="button" id="button-addon2"><i class="fas fa-external-link-alt"></i></button>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $(".toggle_search").click(function(){
+    
+      if($(this).hasClass('active')){
+        $(this).removeClass("active");
+      $('.h-search-form-field').removeClass('show');
+    } else {
+    $(this).addClass("active");
+      $('.h-search-form-field').addClass('show');
+    }
+      
+    });
+        })
+    </script>
+</body>
+
+</html>

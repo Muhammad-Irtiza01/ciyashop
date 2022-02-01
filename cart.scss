@@ -1,0 +1,131 @@
+.cartHeadingMain{
+    background-color: #ededed;
+    border-bottom: 1px solid rgb(196, 198, 199);
+    margin-bottom: 50px;
+    .cartHeading{
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 0;
+        h1{
+            margin: 0;
+            font-size: x-large;
+        }
+        .cartHeadingRight{
+            display: flex;
+            a{
+                text-decoration: none;
+                color: #000;
+                padding-right: 5px;
+            }
+            a:hover{
+                color: #0dd5a2;
+            }
+            p{
+                margin: 0;
+                font-size: medium;
+            }
+        }
+    }
+}
+
+
+.shoppingCart{
+    display: flex;
+    justify-content: space-between;
+    .cartMenu{
+        padding: 40px;
+        border: 2px solid rgb(196, 198, 199);
+        thead{
+            tr{
+                th{
+    
+                }
+                td{
+                    .qty{
+                        width: 30px;
+                    }
+                }
+            }
+        }
+        tbody{
+            tr{
+                th{
+    
+                }
+                td{
+                    .minus{
+                         margin-right: 5px;
+                         background-color: white;
+                         border-color: whitesmoke;
+                    }
+                    .plus{
+                        background-color: white;
+                        border-color: whitesmoke;
+                    }
+                    .qty{
+                        background-color: whitesmoke;
+                        width: 40px;
+                    }
+                }
+                .subTotalProduct{
+                    font-weight: bold;
+                    color: #0dd5a2;
+                }
+            }
+        }
+    }
+    .cartTotal{
+        border: 2px solid rgb(210, 211, 214);
+        padding: 40px;
+        h2{
+            font-size: x-large;
+        }
+        .subTotal{
+            display: flex;
+            justify-content: space-between;
+            .subTotalh1{
+                font-size: large;
+            }
+            .subTotalh2{
+                font-size: large;
+            }
+        }
+        .shipping{
+            display: flex;
+            text-align: right;
+            .shippingh1{
+                padding-right: 50px;
+                font-size: medium;
+            }
+            .shippingRight{
+                p{
+                    margin: 0;
+                }
+                .changeAddress{
+                    color: #0dd5a2;
+                }
+            }
+        }
+        .total{
+            display: flex;
+            justify-content: space-between;
+            .totalh1{
+                font-size: large;
+            }
+            #totalPrice{
+                font-size: large;
+                color: #0dd5a2;
+            }
+        }
+        .proceed{
+            margin-top: 20px;
+            border: 0;
+            color: white;
+            background-color: #0dd5a2;
+            padding: 10px 50px;
+        }
+        .proceed:hover{
+            background-color: #323232;
+        }
+    }
+}
